@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Landing Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar" id="navbar">
+      <div class="nav-inner">
+        <div class="logo">Dental</div>
+        <nav class="nav-links" id="navMenu">
+          <a href="#home" data-section="home">Home</a>
+          <a href="#features" data-section="features">Features</a>        
+          <a href="#highlights" data-section="highlights">Highlights</a>
+          <a href="#offers" data-section="offers">Offers</a>
+          <a href="#reviews" data-section="reviews">Reviews</a>
+          <a href="#contact" data-section="contact">Contact</a>
+        </nav>
+        <div class="menu-icon" id="menuToggle">&#9776;</div>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero reveal">
+      <div class="hero-wrap">
+        <div class="hero-left">
+          <h1>Painless Root Canal Treatment in Delhi</h1>
+          <p>Expert RCT. Zero Pain. Right Here in Delhi. Fast bookings and trusted care at scale.</p>
+          <button class="cta-btn" id="getStartedBtn">Book Appointment</button> 
+          <ul class="stats">
+            <li><strong>600+</strong><span>Clinics</span></li>
+            <li><strong>1300+</strong><span>Dentists</span></li>
+            <li><strong>30 L+</strong><span>Happy Patients</span></li>
+          </ul>
+          </div>
+        <div class="hero-right">
+          <img src="assets/images/Logo.png" alt="doctor" />
+          <div class="appointment-card">
+            <h4>Get Expert Dental Guidance in Delhi</h4>
+            <form id="bookForm">
+              <input type="text" placeholder="Name" />
+              <input type="tel" placeholder="Phone" />
+              <button type="button" class="book-btn">Book Free Consultation</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES / TREATMENTS -->
+    <section id="features" class="features reveal">
+      <h2>Types of Root Canal Treatments</h2>
+      <p class="sub">In a root canal, the dentist removes infected pulp, cleans the tooth, and fills it with special material.</p>
+
+      <div class="treatment-grid">
+        <div class="treatment-card">
+          <img src="assets/images/rootcanal.png" alt="treatment 1" />
+          <div class="treatment-body">
+            <h3>Root Canal Treatment</h3>
+            <p>Ideal for infected or damaged tooth. Includes split RCT, RCT with rubber dam and laser options.</p>
+            <div class="treatment-meta">
+              <span class="price">Starting Price <strong>₹19,999</strong></span>
+              <button class="btn-small">Get Free Consultation</button>
+            </div>
+          </div>
+        </div>  
+        <div class="treatment-card">
+          <img src="assets/images/rerootcanel.png" alt="treatment 2" />
+          <div class="treatment-body">
+            <h3>Re-Root Canal Treatment</h3>
+            <p>For persistent issues after an initial root canal. Includes specialist re-RCT and retrieval of old filling.</p>
+            <div class="treatment-meta">
+              <span class="price">Starting Price <strong>₹19,999</strong></span>
+              <button class="btn-small">Get Free Consultation</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SAFETY CARDS -->
+    <section id="highlights" class="safety reveal">
+      <h3>Safety, Precision, and Innovation</h3>
+      <p class="sub">Advanced care with top safety, sterilization and technology.</p>
+      <div class="safety-grid">
+        <div class="safety-card">
+          <h4>Uncompromised Safety</h4>
+          <p>10x safety protocols for a secure and worry-free dental experience.</p>
+          <a href="#" class="learn">Learn More →</a>
+        </div>
+        <div class="safety-card">
+          <h4>Assuring Cleanliness</h4>
+          <p>Rigid 4-step sterilization process, assuring a safe & spotless clinic.</p>
+          <a href="#" class="learn">Learn More →</a>
+        </div>
+        <div class="safety-card">
+          <h4>Experience AIPS</h4>
+          <p>Our AI-powered sterilization & monitoring system from DORI, USA. Exclusive at Clove.</p>
+          <a href="#" class="learn">Learn More →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- OFFERS -->
+    <section id="offers" class="offers reveal">
+      <h1>Offers</h1>
+      <div class="offers-grid">
+        <div class="promo-card">
+          <img src="assets/images/Treetment.png" alt="promo" />
+          <div class="promo-body">
+            <h4>CLOVE DENTAL TURNS 14</h4>
+            <p>Special anniversary offers and membership plan starting at <strong>₹399/-</strong></p>
+            <button class="btn-small outline">Buy Now</button>
+          </div>
+        </div>
+        <div class="plan-card">
+          <h4>Dental Health Plan - Anniversary Plan</h4>
+          <ul>
+            <li>₹1,700 treatment voucher redeemable</li>
+            <li>Unlimited dental consultations and 2D X-rays for a year</li>
+          </ul>
+          <button class="btn-small">Buy Now</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- GOOGLE REVIEWS / CLINIC GRID -->
+    <section id="reviews" class="reviews reveal">
+      <h2>What Our Patients Say</h2>
+      <p class="sub">Real smiles, real stories. Here’s what our patients love about their experience.</p>
+      <div class="patients-row">
+        <div class="patient">
+          <img src="assets/images/Person1.png" alt="patient 1"/>
+          <p class="name">Shubham <span> Indore</span></p>
+          <p class="review-text">“Very professional staff and warm environment.”</p>
+        </div>
+        <div class="patient">
+          <img src="assets/images/Person3.png" alt="patient 2"/>
+          <p class="name">Subpreet <span> Indore</span></p>
+          <p class="review-text">The treatment quality and hygiene standards are excellent.</p>
+        </div>
+        <div class="patient">
+          <img src="assets/images/Person2.png" alt="patient 3"/>
+          <p class="name">Anita <span> Bangalore</span></p>
+          <p class="review-text">The doctor is very skilled and caring.</p>
+        </div>
+        <div class="patient">
+          <img src="assets/images/Person2.png" alt="patient 4"/>
+          <p class="name">Aarti <span> Indore</span></p>
+          <p class="review-text">The clinic experience was amazing.</p>
+        </div>
+      </div>
+      <h2>Google Reviews</h2>
+      <div class="reviews-row">
+        <div class="google-score">
+          <div class="g-left">
+            <div class="g-logo">G</div>
+            <div class="g-rating"><i class="fa fa-star star"></i> 4.5<span>(1.6 Lakh +)</span></div>
+            <div class="g-label">Verified Google Ratings</div>
+          </div>
+          <div class="g-cards">
+            <div class="g-card">
+              <p class="g-name">Neha Singh</p>
+              <p class="g-text">Excellent service and friendly staff. Highly recommend.</p>
+            </div>
+            <div class="g-card">
+              <p class="g-name">Neha Singh</p>
+              <p class="g-text">Prompt and professional. Lovely experience.</p>
+            </div>
+            <div class="g-card">
+              <p class="g-name">Neha Singh</p>
+              <p class="g-text">Very skilled dentists and painless procedures.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT FORM -->
+    <section id="contact" class="reveal">
+      <div class="contact-section">
+        <h2>Contact Us</h2>
+        <p>We’d love to hear from you. Fill out the form below!</p>
+        <form class="contact-form">
+          <div class="input-group">
+            <i class="fa fa-user"></i>
+            <input type="text" placeholder="Your Name" required />
+          </div>
+          <div class="input-group">
+            <i class="fa fa-envelope"></i>
+            <input type="email" placeholder="Your Email" required />
+          </div>
+          <div class="input-group">
+            <i class="fa fa-phone"></i>
+            <input type="tel" placeholder="Your Phone" />
+          </div>
+          <div class="input-group">
+            <i class="fa fa-comment"></i>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer reveal">
+      <div class="footer-inner">
+          <h4>Find Us Across India</h4>
+          <div class="clinic-grid">
+            <div class="clinic"><strong>Delhi/NCR</strong><span>190 Clinics</span></div>
+            <div class="clinic"><strong>Bangalore</strong><span>110 Clinics</span></div>
+            <div class="clinic"><strong>Mumbai</strong><span>40 Clinics</span></div>
+            <div class="clinic"><strong>Chennai</strong><span>59 Clinics</span></div>
+            <div class="clinic"><strong>Hyderabad</strong><span>76 Clinics</span></div>
+            <div class="clinic"><strong>Punjab</strong><span>27 Clinics</span></div>
+          </div>
+          <div class="footer-brand">clove<span>:</span> dental</div>
+          <nav class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Accessibility</a>
+          </nav>
+          <p class="copyright">All Rights Reserved – 2025</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
